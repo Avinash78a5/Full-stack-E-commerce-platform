@@ -1,0 +1,147 @@
+import React from 'react'
+
+export const LaptopProducts = [
+            {
+                id:1,
+                Product:"HP 15s Ryzen 5 Laptop",
+                Sellingprice:"52,999",
+                Orginalprice:"61,999",
+                Descripition:"8 GB RAM | 512 GB SSD",
+                Display:"15.6 inch Full HD Display",
+                Camera:"720p HD Camera",
+                Battery:"41 Wh Battery",
+                Proccessor:"AMD Ryzen 5 5500U",
+                url:"https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSBQRfo0zcEQnDRf3ZI1LJLHue1n99ivMJUaDd6ve1dtMwJEysdmCuwMq-71JllwdymFrVdxIqveng74sWHRxP0haURLIrc6o1bTtADlnG_MqcGzYfqQlvbFhdLUNJUXg2fV4R3zTc&usqp=CAc",
+                rating:4.4,
+                reviews:1023
+            },
+            {
+                id:2,
+                Product:"Dell Inspiron 15",
+                Sellingprice:"58,999",
+                Orginalprice:"67,999",
+                Descripition:"16 GB RAM | 512 GB SSD",
+                Display:"15.6 inch Full HD",
+                Camera:"HD Webcam",
+                Battery:"54 Wh Battery",
+                Proccessor:"Intel Core i5 12th Gen",
+                url:"https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcS9udt8FzbyWBy6pagJOV7GQb5LmMKkVj0D5JZZVYp8irlcr4UocpLU3zTPYbLrQQkHeuQW8AxqunckEbQCAh0KlGTX41B7_VZpJgeEsXwBrNiKYQpu7jhYRu7zQeGPwD1Gr9LEWeVTU0Y&usqp=CAc",
+                rating:4.5,
+                reviews:1350
+            },
+            {
+                id:3,
+                Product:"Lenovo IdeaPad Slim 3",
+                Sellingprice:"49,999",
+                Orginalprice:"57,999",
+                Descripition:"8 GB RAM | 512 GB SSD",
+                Display:"15.6 inch Full HD",
+                Camera:"HD Camera",
+                Battery:"45 Wh Battery",
+                Proccessor:"AMD Ryzen 5",
+                url:"https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ1mJFF_kVTSbaLk1oAQdxZ-pvRM8WAJoTkbF5n-syiCcWACsrtzmLF6rzE65dtezMuRgPDcmItjum0PenTuUmkS_BsquXF3H8lf_WIDbC3F6WdbiEepJYS5LEWTe2l5tEd-S_peIC4NZQ&usqp=CAc",
+                rating:4.3,
+                reviews:980
+            },
+            {
+                id:4,
+                Product:"ASUS VivoBook 15",
+                Sellingprice:"44,999",
+                Orginalprice:"53,999",
+                Descripition:"8 GB RAM | 512 GB SSD",
+                Display:"15.6 inch IPS Display",
+                Camera:"720p Camera",
+                Battery:"42 Wh Battery",
+                Proccessor:"Intel Core i3 12th Gen",
+                url:"https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQJZ11lYqdTauXvHHCpbxxE9kOpde6wZFyGKY6HMd8SauGKIj16gI7IIBtFcdvd0iMSbqzbqtT5hAkddm3eO4TQh3duajF6lXH70fnlBz-yi5nV-H3aB5ZSpvNPmZB6NA&usqp=CAc",
+                rating:4.4,
+                reviews:1100
+            },
+            {
+                id:5,
+                Product:"Acer Aspire 7",
+                Sellingprice:"62,999",
+                Orginalprice:"72,999",
+                Descripition:"16 GB RAM | 512 GB SSD",
+                Display:"15.6 inch FHD IPS",
+                Camera:"HD Webcam",
+                Battery:"48 Wh Battery",
+                Proccessor:"Ryzen 7",
+                url:"https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcT6cdOz3EwReplnTib9I6dzpPrDXVRDi_zfgG8SUHuZiVlm0Ce3wjzCPGPMD5GkgZMqX-l0YwIYd_Q5ypW-Y4PiuDNswloDqyMhPF9dQl5uGelxTjdssHZ4VuEB2bVUyly6-mpeKVyPMpo&usqp=CAc",
+                rating:4.6,
+                reviews:1420
+            },
+            {
+                id:6,
+                Product:"MSI Modern 14",
+                Sellingprice:"54,999",
+                Orginalprice:"64,999",
+                Descripition:"16 GB RAM | 512 GB SSD",
+                Display:"14 inch Full HD",
+                Camera:"HD Camera",
+                Battery:"39 Wh Battery",
+                Proccessor:"Intel Core i5",
+                url:"https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSGQm92YJoZLurqS-CvBwDvfU-Wi9qI7TfI6PsNrHxk9Y-8TnIIEPZyAaxlsUIB_tBnlGeCtDZ1VFFPYN1CQ2PBzV4DqebBcZSmAyGIPnYVmHl_1c1ZrNhs&usqp=CAc",
+                rating:4.4,
+                reviews:820
+            },
+            {
+                id:7,
+                Product:"MacBook Air M1",
+                Sellingprice:"74,999",
+                Orginalprice:"89,900",
+                Descripition:"8 GB RAM | 256 GB SSD",
+                Display:"13.3 inch Retina",
+                Camera:"720p FaceTime HD",
+                Battery:"18 Hours Backup",
+                Proccessor:"Apple M1",
+                url:"https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTVWcVDtQ_DwYrkQMryMujocDpkVCjOMsbW4TX2DlY6zezh10s7LoRqXPh3vT_oB-TRWzv8E6RqywzGDMGIBJnQ-XlP4IBV9lhBEtLcPh_sk7smdat01LeA&usqp=CAc",
+                rating:4.8,
+                reviews:4200
+            },
+            {
+                id:8,
+                Product:"HP Pavilion Gaming",
+                Sellingprice:"68,999",
+                Orginalprice:"79,999",
+                Descripition:"16 GB RAM | 512 GB SSD",
+                Display:"144Hz IPS Display",
+                Camera:"HD Webcam",
+                Battery:"52 Wh Battery",
+                Proccessor:"Ryzen 5 5600H",
+                url:"https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSCePLRjkD3BN6z8lH_5az_7DahCbkydS0gklBWecZ6ykRo_8UH20hAq0ecd8KdJBKO0v4SbBIQ2uxILG9abkPeVrOaiaXxYEPhcSpY-c_MHG678xKL7O5gCM4YPzV8OZLTXmHJeL7PvJc&usqp=CAc",
+                rating:4.5,
+                reviews:1890
+            },
+            {
+                id:9,
+                Product:"Dell G15 Gaming Laptop",
+                Sellingprice:"82,999",
+                Orginalprice:"94,999",
+                Descripition:"16 GB RAM | 1 TB SSD",
+                Display:"120Hz Display",
+                Camera:"HD Camera",
+                Battery:"56 Wh Battery",
+                Proccessor:"Intel Core i7",
+                url:"https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSJrjzGAn9UpdYAS0rgRk5IWzF8P6ruOukonZ_eLOxUUWszSseQqpzg3Cl_ZnJBpibpVg8Mp6xolqWk9w_qj0FHdc0GVWIbWQjJHmO8zbeD-P7CoxlXcD7W6Sz0ETf8ahKziT8t9JhA-A&usqp=CAc",
+                rating:4.6,
+                reviews:2300
+            },
+            {
+                id:10,
+                Product:"Lenovo Legion 5",
+                Sellingprice:"94,999",
+                Orginalprice:"109,999",
+                Descripition:"16 GB RAM | 1 TB SSD",
+                Display:"165Hz Display",
+                Camera:"HD Webcam",
+                Battery:"60 Wh Battery",
+                Proccessor:"Ryzen 7",
+                url:"https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQgJ1uOI2qOGtiWKLWqup84t87Myw48kKuSfTF8P_ABHjweMv1dI_t1QEr1VT9oPAcev1qIvHKxGjatyxfutz9ncQbzX3PhwG2CIMEPhFeNEV681MlwMzNswHvkpwcJp4lig4SeXFc&usqp=CAc",
+                rating:4.8,
+                reviews:3100
+            }
+
+
+]
+
