@@ -135,7 +135,7 @@ const Cart = () => {
 
 
       const response =
-        await fetch("https://full-stack-e-commerce-platform-f9ts.onrender.com/api/payments/create-checkout-session",
+        await fetch(`${import.meta.env.VITE_API_URL}/api/payments/create-checkout-session`,
 
           {
 
