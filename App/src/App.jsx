@@ -46,13 +46,14 @@ function App() {
       
     }
   }
-
-  useEffect(() => {
-    if(user){
-      console.log(user);
-      console.log(typeof user.id);
-    }
-  },[user]);
+  
+  //To check if user is set in store
+  // useEffect(() => {
+  //   if(user){
+  //     console.log(user);
+  //     console.log(typeof user.id);
+  //   }
+  // },[user]);
 
 
   
