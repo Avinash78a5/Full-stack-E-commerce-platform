@@ -135,7 +135,7 @@ const Cart = () => {
 
 
       const response =
-        await fetch("http://localhost:5000/api/payments/create-checkout-session",
+        await fetch("https://full-stack-e-commerce-platform-f9ts.onrender.com/api/payments/create-checkout-session",
 
           {
 
